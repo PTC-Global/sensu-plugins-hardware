@@ -4,6 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This CHANGELOG follows the format listed at [Our CHANGELOG Guidelines](https://github.com/sensu-plugins/community/blob/master/HOW_WE_CHANGELOG.md)
 
 ## [Unreleased]
+### Added
+- Options `--facility`, `--level` and `--kernel` to restrict dmesg output on linux OS (@epierotto)
+- Option `--seconds` to specify the amount of seconds to lookbehind on dmesg output on linux OS (@epierotto)
+- Options validation to prevent running incompatible arguments (@epierotto)
 
 ## [1.3.0] - 2017-12-05
 ### Added
